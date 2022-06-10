@@ -49,7 +49,7 @@ class Tree {
     }
 
  public:
-    std::string operator[](int k) const {
+    std::string operator[](int p) const {
         return numbs[p];
     }
     explicit Tree(std::vector<char> v) {
